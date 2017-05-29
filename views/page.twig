@@ -1,0 +1,46 @@
+{% include 'header.twig' %}
+
+
+
+{% if mainmenu %}
+    {% include 'menu.twig' %}
+{% endif %}
+<br>
+	{% if seminars %}
+    {% include 'seminars.twig' %}
+{% endif %}
+{% if seminar %}
+    {% include 'seminar.twig' %}
+{% endif %}
+{% if stafflist %}
+    {% include 'stafflist.twig' %}
+{% endif %}
+{% if staff %}
+    {% include 'staff.twig' %}
+{% endif %}
+
+{% if indexpage %}
+    {% include 'index.twig' %}
+{% endif %}
+
+
+{% if childrensList %}
+
+    {% include 'childrenslist.twig' %}
+
+{% endif %}
+
+
+
+
+{% if staticpage %}
+    <br>
+    <hr>
+
+    <h1>{{ name }}</h1>
+
+    <p>
+        Содержание страницы:
+        {{ src }}
+
+ {% endif %}

@@ -1,0 +1,6 @@
+ {{ name }}  <ul>
+   {% for qdata in stafflist %}
+       <li><a href="{{ qdata['id'] }}">{{qdata['name']}} </a>| {{ qdata['position'] }} | {{ qdata['date']}}</li>  
+    {% endfor %}
+   </ul>
+ 

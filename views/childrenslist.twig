@@ -1,0 +1,6 @@
+   <ul class="nav navbar-nav navbar-left">   
+    {% for qdata in childrensList %}
+        
+       <li> <a href="/{{alias}}/{{qdata['alias']}}">{{ qdata['name'] }}</a> </li> 
+    {% endfor %}
+    </ul>

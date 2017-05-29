@@ -1,0 +1,13 @@
+ Список семинаров
+ {% if date %}
+      (дата проведения {{ date }})
+ {% endif %}
+  : <ul>
+   {% for qdata in seminars %}
+       <li><a href="/seminars/{{ qdata['id'] }}">{{qdata['name']}} </a>
+           | {{ qdata['author'] }} 
+           | <a href="/seminars/date/{{qdata['date']}}">{{qdata['date']}}</a>
+       </li>  
+    {% endfor %}
+   </ul>
+ 
