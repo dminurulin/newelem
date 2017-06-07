@@ -3,14 +3,24 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Apache24/htdocs/newelement.loc/Controllers/aboutController.php</file>
+            <file>file:/C:/Apache24/htdocs/newelement.loc/Controllers/seminarsController.php</file>
             <file>file:/C:/Apache24/htdocs/newelement.loc/views/page.twig</file>
+            <file>file:/C:/Apache24/htdocs/newelement.loc/views/menu.twig</file>
+            <file>file:/C:/Apache24/htdocs/newelement.loc/views/seminar.twig</file>
             <file>file:/C:/Apache24/htdocs/newelement.loc/lib/Dbase.php</file>
             <file>file:/C:/Apache24/htdocs/newelement.loc/Models/pages.php</file>
+            <file>file:/C:/Apache24/htdocs/newelement.loc/views/stafflist.twig</file>
+            <file>file:/C:/Apache24/htdocs/newelement.loc/Controllers/aboutController.php</file>
+            <file>file:/C:/Apache24/htdocs/newelement.loc/views/seminars.twig</file>
+            <file>file:/C:/Apache24/htdocs/newelement.loc/views/childrenslist.twig</file>
             <file>file:/C:/Apache24/htdocs/newelement.loc/Providers/ModelsServiceProvider.php</file>
             <file>file:/C:/Apache24/htdocs/newelement.loc/Models/mainMenu.php</file>
+            <file>file:/C:/Apache24/htdocs/newelement.loc/Models/staffModel.php</file>
             <file>file:/C:/Apache24/htdocs/newelement.loc/views/header.twig</file>
+            <file>file:/C:/Apache24/htdocs/newelement.loc/Controllers/staffController.php</file>
+            <file>file:/C:/Apache24/htdocs/newelement.loc/views/staff.twig</file>
             <file>file:/C:/Apache24/htdocs/newelement.loc/index.php</file>
+            <file>file:/C:/Apache24/htdocs/newelement.loc/Models/seminars.php</file>
         </group>
     </open-files>
 </project-private>
